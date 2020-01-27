@@ -1,0 +1,14 @@
+- name: create direcotry
+  file:
+    path: /etc/test
+    state: directory
+    owner: root
+    group: root
+    mode: 0775
+- name: create file
+  file:
+    state: touch
+    path: /etc/test/test.txt
+    owner: root
+    group: root
+    mode: 0775
