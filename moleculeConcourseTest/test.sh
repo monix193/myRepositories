@@ -1,2 +1,2 @@
- #cd /moleculeConcourseTest
- molecule test
+#!/bin/sh
+molecule test
