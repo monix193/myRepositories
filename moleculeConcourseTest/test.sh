@@ -1,2 +1,2 @@
 #!/bin/sh
-molecule test
+molecule --debug test
